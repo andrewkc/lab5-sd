@@ -1,10 +1,10 @@
-# Laboratorio 5 — Sistemas de marketing y predicciones
+# Laboratorio 5 - Sistemas de marketing y predicciones
 
 Repositorio con las soluciones desarrolladas para el Laboratorio 5 de Análisis y Diseño de Software.
 
 ## Aplicaciones
 
-### App1 — Champions Predictor
+### App1 - Champions Predictor
 
 Aplicación web en arquitectura de tres capas para gestionar partidos de la Champions League. Permite:
 
@@ -19,7 +19,7 @@ Documentación completa:
 
 [README de App1](./app1/README.md)
 
-### App2 — Marketing Studio
+### App2 - Marketing Studio
 
 Aplicación web para marketing empresarial. Permite:
 

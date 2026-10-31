@@ -1,4 +1,4 @@
-# App2 — Marketing Studio
+# App2 - Marketing Studio
 
 ## Descripción
 
@@ -102,7 +102,7 @@ theandrewkc/marketing-studio:latest
 
 Repositorio:
 
-[Docker Hub — marketing-studio](https://hub.docker.com/r/theandrewkc/marketing-studio)
+[Docker Hub - marketing-studio](https://hub.docker.com/r/theandrewkc/marketing-studio)
 
 Comandos utilizados:
 

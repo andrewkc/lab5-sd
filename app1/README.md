@@ -1,4 +1,4 @@
-# App1 — Champions Predictor
+# App1 - Champions Predictor
 
 > **Documentación final de despliegue y evidencias**
 
