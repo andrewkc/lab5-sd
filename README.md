@@ -2,6 +2,8 @@
 
 Repositorio con las soluciones desarrolladas para el Laboratorio 5 de Análisis y Diseño de Software.
 
+Link: https://github.com/andrewkc/lab5-sd/
+
 ## Aplicaciones
 
 ### App1 - Champions Predictor
