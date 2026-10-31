@@ -1,0 +1,32 @@
+services:
+  app2:
+    build: .
+    image: theandrewkc/marketing-studio:latest
+    ports:
+      - "5001:5001"
+    environment:
+      DATABASE_URL: postgresql+psycopg2://marketing:${POSTGRES_PASSWORD}@db:5432/marketing
+      SECRET_KEY: ${SECRET_KEY}
+      STORAGE_DIR: /data
+      SOCIAL_MODE: ${SOCIAL_MODE:-simulated}
+    volumes:
+      - app2_storage:/data
+    depends_on:
+      db:
+        condition: service_healthy
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: marketing
+      POSTGRES_USER: marketing
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - app2_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U marketing -d marketing"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+volumes:
+  app2_storage:
+  app2_db_data:

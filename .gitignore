@@ -44,3 +44,5 @@ Thumbs.db
 # Archivos temporales de Docker
 docker-data/
 volumes/
+app2/instance/
+app2/storage/
