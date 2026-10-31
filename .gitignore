@@ -1,0 +1,46 @@
+# Secretos y credenciales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# Bases de datos locales y datos generados por Flask
+*.db
+*.sqlite
+*.sqlite3
+instance/
+app1/instance/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Sistemas operativos y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Archivos temporales de Docker
+docker-data/
+volumes/
